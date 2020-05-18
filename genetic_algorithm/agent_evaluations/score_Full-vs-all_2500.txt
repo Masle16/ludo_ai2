@@ -1,0 +1,7 @@
+Player Full Population genetic_algorithm/populations/Full/Full_Cellular-100-10_Whole_Normal-0.1/1000.pop.winner.npy
+Opponent random Wins 0.925 Statistical significance True Games 2500
+Opponent smart Wins 0.686 Statistical significance True Games 2500
+Opponent simple Wins 0.740 Statistical significance True Games 2500
+Opponent advanced Wins 0.569 Statistical significance True Games 2500
+Opponent full Wins 0.502 Statistical significance False Games 2500
+Opponent mikkel Wins 0.826 Statistical significance True Games 2500

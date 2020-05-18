@@ -1,0 +1,7 @@
+Player mikkel Population 
+Opponent random Wins 0.726 Statistical significance True Games 2500
+Opponent smart Wins 0.326 Statistical significance True Games 2500
+Opponent simple Wins 0.427 Statistical significance True Games 2500
+Opponent advanced Wins 0.206 Statistical significance True Games 2500
+Opponent full Wins 0.158 Statistical significance True Games 2500
+Opponent mikkel Wins 0.502 Statistical significance False Games 2500

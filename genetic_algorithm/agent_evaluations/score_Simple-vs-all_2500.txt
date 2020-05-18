@@ -1,0 +1,7 @@
+Player Simple Population genetic_algorithm/populations/Simple/Simple_Cellular-20-10_Blend-0.5_NStep/1000.pop.winner.npy
+Opponent random Wins 0.801 Statistical significance True Games 2500
+Opponent smart Wins 0.440 Statistical significance True Games 2500
+Opponent simple Wins 0.505 Statistical significance False Games 2500
+Opponent advanced Wins 0.290 Statistical significance True Games 2500
+Opponent full Wins 0.249 Statistical significance True Games 2500
+Opponent mikkel Wins 0.572 Statistical significance True Games 2500

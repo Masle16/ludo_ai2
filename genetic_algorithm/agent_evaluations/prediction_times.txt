@@ -1,0 +1,8 @@
+Simple with id 0
+Advanced with id 1
+Full with id 2
+random with id 3
+Win rates [15.56 35.24 45.8   3.4 ]
+Mean prediction time of Simple: 0.000098
+Mean prediction time of Advanced: 0.000172
+Mean prediction time of Full: 0.000432

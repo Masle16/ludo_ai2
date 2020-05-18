@@ -1,0 +1,7 @@
+Player Advanced Population genetic_algorithm/populations/Advanced/Advanced_Normal-100-10_Whole_Normal-0.1/1000.pop.winner.npy
+Opponent random Wins 0.916 Statistical significance True Games 2500
+Opponent smart Wins 0.619 Statistical significance True Games 2500
+Opponent simple Wins 0.713 Statistical significance True Games 2500
+Opponent advanced Wins 0.490 Statistical significance False Games 2500
+Opponent full Wins 0.440 Statistical significance True Games 2500
+Opponent mikkel Wins 0.806 Statistical significance True Games 2500
