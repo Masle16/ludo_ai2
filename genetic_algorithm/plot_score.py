@@ -13,6 +13,25 @@ from matplotlib import pyplot as plt
 from collections import defaultdict
 
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--paths', nargs='+', required=True)
+parser.add_argument('--opponents', nargs='+', required=True)
+parser.add_argument('--max_gen', type=int, default=0)
+parser.add_argument('--save', type=str)
+arguments = [
+    'mean',
+    'std',
+    'max',
+    'scatter',
+    'match_count',
+    'no_legend',
+    'tight'
+]
+for arg in arguments:
+    parser.add_argument('--'+arg, action='store_const', const=True, default=False)
+args = parser.parse_args()
+
+
 prop_cycle = plt.rcParams['axes.prop_cycle']
 colors = [mpl_colors.to_rgb(c) for c in prop_cycle.by_key()['color']]
 
@@ -32,7 +51,7 @@ def load_scores(path):
     return mat
 
 
-def main(args):
+def main():
     # plt.figure(figsize=(4, 2.5))
     
     training_paths = args.paths
@@ -118,22 +137,4 @@ def main(args):
 
 
 if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--paths', nargs='+', required=True)
-    parser.add_argument('--opponents', nargs='+', required=True)
-    parser.add_argument('--max_gen', type=int, default=0)
-    parser.add_argument('--save', type=str)
-    arguments = [
-        'mean',
-        'std',
-        'max',
-        'scatter',
-        'match_count',
-        'no_legend',
-        'tight'
-    ]
-    for arg in arguments:
-        parser.add_argument('--'+arg, action='store_const', const=True, default=False)
-    args = parser.parse_args()
-
-    main(args)
+    main()
